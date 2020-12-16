@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.GCD</title>
+</head>
+<body>
+    <script> 
+        var a = 1263262; 
+        var b = 553443;   
+        var gcd;
+        while (a!=b)
+        {
+            if (a>b)
+            {
+                a = a - b;
+            }
+            else
+            {
+                b = b - a;
+            }
+        }
+        gcd = a;
+        console.log(gcd);</script>
+</body>
+</html>
